@@ -1,0 +1,96 @@
+Automaton Simulator, v1.0
+dpda {
+	alphabet {abcd*}
+	state {
+		initial {yes}
+		coord {563 411}
+	}
+	state {
+		coord {745 416}
+	}
+	state {
+		final {yes}
+		coord {898 416}
+	}
+	state {
+		coord {1061 416}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.12293335146080743}
+		action {push a}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.750649826587375}
+		stacktop {a}
+		action {push a}
+	}
+	edge 1 2 {
+		transits {b}
+		offset {0.7046899303134047}
+		stacktop {a}
+	}
+	edge 2 3 {
+		transits {c}
+		offset {0.7796795829594642}
+		stacktop {a}
+	}
+	edge 2 2 {
+		transits {b}
+		offset {1.464060654145761}
+		stacktop {a}
+		action {pop}
+	}
+	edge 3 2 {
+		transits {b}
+		offset {0.5235987755982988}
+		stacktop {a}
+		action {pop}
+	}
+	label {
+		text {A}
+		font {SansSerif 12 -}
+		coord {550 418}
+	}
+	label {
+		text {B}
+		font {SansSerif 12 -}
+		coord {732 424}
+	}
+	label {
+		text {C}
+		font {SansSerif 12 -}
+		coord {888 412}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1036 419}
+	}
+	label {
+		text {D}
+		font {SansSerif 12 -}
+		coord {1044 419}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {221 257}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1048 419}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1055 425}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1047 431}
+	}
+}
